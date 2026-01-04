@@ -1,13 +1,15 @@
-# XORNG CI/CD Pipeline
-# Comprehensive build, test, and security validation for pull requests
-
-name: CI
-
-on:
-  push:
-    branches: [main, develop]
-  pull_request:
-    branches: [main, develop]
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "ci",
+      "version": "1.0.0"
+    }
+  }
+}
 
 permissions:
   contents: read
